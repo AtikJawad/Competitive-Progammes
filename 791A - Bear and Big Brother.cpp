@@ -11,7 +11,7 @@ for(int i=0; a<=b; i++){ // loop goes on as long as a is not greater than b
 
         a=3*a; // Limak weighs triple each year & Bob twice
         b=2*b;
-        years++;
+        years++; // counter increases by one everytime loop is executed
 }
 cout<<years; // output
 
