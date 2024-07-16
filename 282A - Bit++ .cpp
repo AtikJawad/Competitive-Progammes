@@ -6,7 +6,7 @@ int main() {
     cin>>n;
     x=0;
     for(int i=0;i<n;i++){
-        string str; // using string makes it easier than Char Array (for me)
+        string str; // using string makes it easier than using character array in this problem
         cin>>str; // taking input
       
         if(str=="++X"||str=="X++"){
